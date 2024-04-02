@@ -1,0 +1,16 @@
+/* external css */
+h3{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    color: red;
+}
+/* *{
+    color: yellow !important;
+} */
+body{
+    
+background: linear-gradient(to left,#1974D2,#01F9C6);
+}
+img{
+    border-radius: 20px;
+}

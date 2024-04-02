@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cointainer">
+        <div class="mobile">MOBILE</div>
+        <div class="tab">T A B L E T</div>
+        <div class="desktop"><p>D</p> <p>E</p>
+            <p>S</p>
+            <p>K</p>
+            <p>T</p>
+            <p>O</p>
+            <p>P</p>
+        </div>
+    </div>
+
+    <style>
+        /* @media (max-width:400px) {
+                .mobile{
+                    display :flex;
+                    color: red;
+                    
+                }
+                .tab{
+                    display: none;
+                }
+                .desktop{
+                    display: none;
+                }
+        
+    }
+    @media (min-width:768px) {
+                .tab{
+                    display :flex;
+                    color: red;
+
+                }
+                .mobile{
+                    display: none;
+                }
+                .desktop{
+                    display: none;
+                }
+        
+    }
+    @media (min-width:1024px) {
+                .desktop{
+                    display :flex;
+                    color: red;
+
+                }
+                .mobile{
+                    display: none;
+                }
+                .tab{
+                    display: none;
+                }
+        
+    } */
+
+        @media (min-width:1024px) {
+            .cointainer{
+                display: flex;
+                justify-content: center;
+                border: 30px dotted blue;
+                align-items: center;
+                height: 1440px;
+
+            }
+            .desktop {
+                
+               
+                flex-direction: column;
+                color: hotpink;
+                text-shadow: 4px 5px 7px blue;
+                font-size: 50px;
+                line-height: 0.1;
+                font-size: 100px;
+                
+               
+               
+                /*text-indent: 60px;*/
+                /*word-spacing: 56px ;*/
+                
+
+
+
+            }
+
+            .mobile {
+                display: none;
+            }
+
+            .tab {
+                display: none;
+            }
+            /*p{  
+                border: 2px dotted blue;
+                margin:0;
+                padding: 0;
+
+            }
+        }
+        
+        @media(min-width:400px){
+            .mobile{
+                border: 5px solid red;
+                height: 630px;
+                margin: 0;
+            }
+            .tab{
+                display: none;
+            }
+            .desktop{
+                display:none;
+            }*/
+        }
+       /* @media(min-width:768px){
+            .tab{
+                display :flex;
+                border: 5px solid red;
+                height: 1260px;
+                margin: 0;
+                align-items: center;
+                justify-content: center;
+                font-size: xx-large;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-style: italic;
+               word-spacing: 99px;
+            }
+            .mobile{
+                display: none;
+            }
+            .desktop{
+                display:none;
+            }
+        }*/
+    </style>
+</body>
+
+</html>

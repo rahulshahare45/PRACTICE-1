@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Registration form</legend>
+      
+        <label for="name">NAME:</label><br>
+        <input type="text" id="name" required><label style="color: red;">*</label>
+        <br><br>
+        
+        <label for="age">AGE:</label><br>
+        <input type="date" id="age"><label style="color: red;">*</label>
+        <br><br>
+        
+        <label for="no.">CONTACT:</label><br>
+        <input type="password" id="no." required><label style="color: red;">*</label>
+        <br><br>
+        
+        <label for="mail">E-MAIL:</label><br>
+        <input type="password" id="mail" required><label style="color: red;">*</label>
+        <br><br>
+        
+        <label for="cast">CATEGORY:</label><label style="color: red;">*</label>
+        <br> <input type="radio" id="cast" name="cast" >SC<br>
+        <input type="radio" id="cast" name="cast">ST<br>
+        <input type="radio" id="cast" name="cast">OBC<br>
+        <input type="radio" id="cast" name="cast">OPEN<br>
+        <input type="radio" id="cast" name="cast">NT<br>
+
+
+       
+        <br><br>
+        
+        <label for="state">STATE:</label>
+       
+       <input list="list" name="state" id="state">
+       <datalist id="list">
+        <option value="MAHARASHTRA" >
+        <option value="PUNJAB">
+        <option value="TAMIL NADU" >
+        <option value=" KARANATAKA">
+        <option value="RAJSHTAN">
+        <option value="JAMMU AND KASHMIR">
+        <option value="DELHI">
+        <option value="GOA">
+        <option value="BIHAR">
+      
+       <label style="color: red;">*</label>
+        <br><br>
+        
+        <label for="city">CITY:</label><br>
+        <input type="text" id= "city" required><label style="color: red;">*</label>
+        <br><br>
+        
+        <button>SUBMIT</button>
+    </fieldset>
+    </form>
+</body>
+</html>

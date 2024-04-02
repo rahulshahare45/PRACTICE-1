@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Bookstore</title>
+<style>
+body {
+font-family: Arial, sans-serif; margin: 0;
+padding: 0;
+background-color: #f5f5f5;
+}
+header, footer {
+background-color: #333; color: #fff;
+text-align: center; padding: 20px 0;
+}
+#home { padding: 20px;
+}
+h1, h2 {
+margin-top: 0;
+}
+table {
+width: 100%;
+border-collapse: collapse; margin-top: 20px;
+}
+th, td {
+border: 1px solid #ddd; padding: 8px;
+text-align: left;
+}
+tr:nth-child(even) { background-color: #f2f2f2;
+}
+form {
+max-width: 300px; margin: 0 auto;
+}
+label {
+display: block; margin-bottom: 5px;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="submit"] {
+width: 100%; padding: 10px; margin-bottom: 10px;
+border: 1px solid #ccc; border-radius: 5px;
+}
+input[type="submit"] { background-color: #333; color: #fff;
+cursor: pointer;
+}
+</style>
+</head>
+<body>
+<!-- Home Page -->
+<div id="home">
+<h1> 
+NAME:- Tanmay A . Ambade  ROLL NO. :- D-62</h1>
+<header>
+<h1>Welcome to Our Online Bookstore</h1>
+</header>
+<section id="featured-books">
+<h2>Featured Books</h2>
+<!-- Add featured books here -->
+</section>
+<section id="latest-releases">
+<h2>Latest Releases</h2>
+<!-- Add latest releases here -->
+</section>
+<footer>
+<p>&copy; 2024 Online Bookstore</p>
+</footer>
+</div>
+<!-- Login Page -->
+<div id="login">
+<h2>Login</h2>
+<form>
+<label for="username">Username:</label>
+<input type="text" id="username" name="username" required><br><br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required><br><br>
+<input type="submit" value="Login">
+</form>
+</div>
+<!-- Catalogue Page -->
+<div id="catalogue">
+<center><h2>Book Catalogue</h2></center>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author</th>
+<th>Genre</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<!-- Populate with book details -->
+<tr>
+<td>Book Title 1</td>
+<td>Author 1</td>
+<td>Genre 1</td>
+<td>$10.00</td>
+</tr>
+<tr>
+<td>Book Title 2</td>
+<td>Author 2</td>
+<td>Genre 2</td>
+<td>$12.00</td>
+</tr>
+<!-- Add more books as needed -->
+</tbody>
+</table>
+</div>
+<!-- Registration Page -->
+<div id="registration">
+<center><h2>Registration</h2></center>
+<form>
+<label for="fullname">Full Name:</label>
+<input type="text" id="fullname" name="fullname" required><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required><br><br>
+<label for="username">Username:</label>
+<input type="text" id="username" name="username" required><br><br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required><br><br>
+<input type="submit" value="Register">
+</form>
+</div>
+</body>
+</html>
